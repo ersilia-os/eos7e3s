@@ -1,9 +1,13 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos7e3s",
+    "Slug": "dili-pred",
+    "Status": "In progress",
+    "Title": "Drug-induced liver injury prediction",
+    "Description": [
+        "Prediction of clinically relevant drug-induced-liver-injury (DILI)",
+        "based solely on drug structure using binary classification methods. The results presented here are useful as a screening tool both in a clinical setting",
+        "in the assessment of DILI as well as in the early stages of drug development to rule out potentially hepatotoxic candidates."
+    ],
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +16,12 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "Metabolism",
+        "Toxicity",
+        "Cytotoxicity"
+    ],
+    "Publication": "https://pubmed.ncbi.nlm.nih.gov/30325042/",
+    "Source Code": "https://github.com/cptbern/QSAR_DILI_2019",
+    "License": null
 }
