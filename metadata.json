@@ -8,12 +8,12 @@
         "based solely on drug structure using binary classification methods. The results presented here are useful as a screening tool both in a clinical setting",
         "in the assessment of DILI as well as in the early stages of drug development to rule out potentially hepatotoxic candidates."
     ],
-    "Mode": "",
-    "Task": [],
-    "Input": [],
-    "Input Shape": "",
-    "Output": [],
-    "Output Type": [],
+    "Mode": "Retrained",
+    "Task": ["Classification"],
+    "Input": ["Compound"],
+    "Input Shape": "Single",
+    "Output": ["Probability"],
+    "Output Type": ["Float"],
     "Output Shape": "",
     "Interpretation": "",
     "Tag": [
