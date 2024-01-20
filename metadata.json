@@ -14,12 +14,12 @@
     "Input Shape": "Single",
     "Output": ["Probability"],
     "Output Type": ["Float"],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Output Shape": "Single",
+    "Interpretation": "prediction of drug-induced liver injury (DILI) based on structural and physicochemical descriptors",
     "Tag": [
         "Metabolism",
         "Toxicity",
-        "Cytotoxicity"
+        "Embedding"
     ],
     "Publication": "https://pubmed.ncbi.nlm.nih.gov/30325042/",
     "Source Code": "https://github.com/cptbern/QSAR_DILI_2019",
