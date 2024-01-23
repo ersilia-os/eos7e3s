@@ -3,25 +3,30 @@
     "Slug": "dili-pred",
     "Status": "In progress",
     "Title": "Drug-induced liver injury prediction",
-    "Description": [
-        "Prediction of clinically relevant drug-induced-liver-injury (DILI)",
-        "based solely on drug structure using binary classification methods. The results presented here are useful as a screening tool both in a clinical setting",
-        "in the assessment of DILI as well as in the early stages of drug development to rule out potentially hepatotoxic candidates."
-    ],
+    "Description": "Drug\u2010induced liver injury (DILI) represents a significant concern in healthcare, being the leading cause of acute liver failure and a common factor behind drug withdrawals from the market. Clinical presentations of DILI vary widely, and toxicity may manifest independent of the drug dosage. This underscores the need for robust predictive tools to assess the potential hepatotoxicity of pharmaceutical candidates.This study focuses on predicting clinically relevant DILI solely based on drug structure using binary classification methods. The results obtained serve a dual purpose, offering valuable insights for both clinical applications and early-stage drug development. In a clinical setting, these findings function as a screening tool for assessing DILI, providing healthcare professionals with a means to identify potential liver injury risks associated with specific drugs.Moreover, in the realm of drug development, these predictive outcomes aid in the identification and exclusion of potentially hepatotoxic candidates during the early stages of research and development. This proactive approach contributes to the mitigation of risks associated with drug-induced liver injury, enhancing the safety profile of pharmaceuticals entering the market and aligning with the overarching goal of delivering effective and safe therapeutics to patients.",
     "Mode": "Retrained",
-    "Task": ["Classification"],
-    "Input": ["Compound"],
+    "Task": [
+        "Classification"
+    ],
+    "Input": [
+        "Compound"
+    ],
     "Input Shape": "Single",
-    "Output": ["Probability"],
-    "Output Type": ["Float"],
-    "Output Shape": "",
-    "Interpretation": "",
+    "Output": [
+        "Probability"
+    ],
+    "Output Type": [
+        "Float"
+    ],
+    "Output Shape": "Single",
+    "Interpretation": "prediction of drug-induced liver injury (DILI) based on structural and physicochemical descriptors",
     "Tag": [
         "Metabolism",
         "Toxicity",
-        "Cytotoxicity"
+        "Embedding"
     ],
     "Publication": "https://pubmed.ncbi.nlm.nih.gov/30325042/",
     "Source Code": "https://github.com/cptbern/QSAR_DILI_2019",
-    "License": null
+    "License": "None",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7e3s.zip"
 }
