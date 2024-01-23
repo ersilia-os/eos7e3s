@@ -25,6 +25,11 @@ Drug‐induced liver injury (DILI) represents a significant concern in healthcar
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos7e3s)
+<<<<<<< HEAD
+=======
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7e3s.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos7e3s) (AMD64, ARM64)
+>>>>>>> c0ddfc2ca77c59cae6743131bc6783c7bea94ff7
 
 ## Citation
 

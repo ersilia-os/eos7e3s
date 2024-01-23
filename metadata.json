@@ -28,5 +28,14 @@
     "Publication": "https://pubmed.ncbi.nlm.nih.gov/30325042/",
     "Source Code": "https://github.com/cptbern/QSAR_DILI_2019",
     "License": "None",
+<<<<<<< HEAD
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7e3s.zip"
+=======
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7e3s.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7e3s",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
+>>>>>>> c0ddfc2ca77c59cae6743131bc6783c7bea94ff7
 }
